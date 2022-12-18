@@ -1,0 +1,305 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: auto;
+left: -10px;
+top: 40px;
+overflow-y:scroll;
+scroll-snap-type:y mandatory ;
+background: #11071F;
+}
+
+.top_bar{
+    position:fixed;
+width: 1510px;
+height: 100px;
+left: 0px;
+top: 0px;
+overflow: hidden;
+text-align: center;
+
+text-decoration: none;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+background: #1A0B2E;
+box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
+}
+#home{
+    position: absolute;
+width: 15px;
+height: 0px;
+left: 63%;
+top: 20px;
+
+padding-left: 30px;
+padding-top: 20px;
+padding-right: 60px;
+padding-bottom: 40px;
+border-radius: 15px 50px;
+
+}
+
+#about{
+    position: absolute;
+width: 15px;
+height: 0px;
+left: 73%;
+top: 20px;
+
+padding-left: 30px;
+padding-top: 20px;
+padding-right: 60px;
+padding-bottom: 40px;
+border-radius: 15px 50px;
+}
+
+#project {
+    position: absolute;
+width: 15px;
+height: 0px;
+left: 83%;
+top: 20px;
+
+padding-left: 30px;
+padding-top: 20px;
+padding-right: 60px;
+padding-bottom: 40px;
+border-radius: 15px 50px;
+
+}
+#logo {
+    position: absolute;
+width: 55px;
+height: 60px;
+left: 337px;
+top: 25px;
+padding: 0%;
+
+}
+#logo:hover {
+    cursor: pointer;
+  background-color:transparent;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #FFFFFF;
+border-width: medium;
+}
+
+.top_bar a:hover {
+    cursor: pointer;
+  background-color: #ddd;
+  color: black;
+}
+
+.top_bar :active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.image-parent {
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    left: 0px;
+    top: 120px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+
+  }
+  
+.image-frame{
+
+    position:absolute;
+    width: 135px;
+    height: 140px;
+    left: 0px;
+    top: 25px;
+    
+
+}
+.arrow-pointer{
+    position:absolute;
+    width: 95px;
+    height: 110px;
+    left: 70px;
+    top: 70px;
+   
+}
+.name-handle{
+    position: absolute;
+width: 245px;
+height: 20px;
+left: 180px;
+top: 75px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 97px;
+/* or 511% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+
+color: #FFFFFF;
+
+}
+.name{
+    color: #7127BA;
+    font-style:italic;
+}
+.description{
+    position: absolute;
+width: 892px;
+height: 120px;
+left: 220px;
+top: 130px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.section-1{
+   position: absolute;
+    background-image: url('Rectangle 982.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 80%;
+height: 450px;
+left: 220px;
+top: 200px;
+}
+
+.work-xp{
+    position: absolute;
+width: 300px;
+height: 72px;
+left: 280px;
+top: 730px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 72px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+.xp-1{
+    position: absolute;
+width: 400px;
+height: 250px;
+left: 320px;
+top: 830px;
+}
+.xp-2{
+    position: absolute;
+width: 400px;
+height: 250px;
+left: 320px;
+top: 1080px;
+}
+.xp-3{
+    position: absolute;
+width: 400px;
+height: 250px;
+left: 820px;
+top: 830px;
+}
+.xp-4{
+    position: absolute;
+width: 400px;
+height: 250px;
+left: 820px;
+top: 1080px;
+}
+.gradient-back{
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: 610px;
+    top: 930px;
+    } 
+    
+    
+.section-3 p{
+    position: absolute;
+    width: 1000px;
+    height: 120px;
+    left: 300px;
+    top: 1400px;
+
+
+font-family:'Comic Sans MS' ;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+  
+}
+.skills{
+    position: absolute;
+    left: 550px;
+    top: 1550px;
+}
+
+.section-4{
+    position: absolute;
+    width: 1000px;
+    height: 120px;
+    left: 260px;
+    top: 1800px;
+
+
+font-family:'Comic Sans MS' ;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;  
+}
+.section-4 img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+#line{
+    width: 1000px;
+    height: 10px; 
+    
+ }
+
+
+.socials:hover{
+   cursor: pointer;
+    
+} 
