@@ -57,33 +57,33 @@ border-radius: 15px 50px;
     width:0%;
     height: 0%;
     left: 73%;
-    top: 20%;
+    top: 0%;
 
-padding-left: 30px;
-padding-top: 20px;
-padding-right: 60px;
-padding-bottom: 40px;
-border-radius: 15px 50px;
-}
+    padding-left: 2%;
+    padding-top: 1.5%;
+    padding-right:5%;
+    padding-bottom:2.5%;
+    border-radius: 15px 50px;
+    }
 
 #project {
     position: absolute;
-width: 15px;
-height: 0px;
-left: 83%;
-top: 20px;
+    width:0%;
+    height: 0%;
+    left: 83%;
+    top: 0%;
 
-padding-left: 30px;
-padding-top: 20px;
-padding-right: 60px;
-padding-bottom: 40px;
-border-radius: 15px 50px;
-
+    padding-left: 2%;
+    padding-top: 1.5%;
+    padding-right:5%;
+    padding-bottom:2.5%;
+    border-radius: 15px 50px;
+    
 }
 #logo {
     position: absolute;
-width: 55px;
-height: 60px;
+width: 50px;
+height: 55px;
 left: 23%;
 top: 0%;
 padding: 0%;
@@ -111,10 +111,10 @@ border-width: medium;
 
 .image-parent {
     position: absolute;
-    width: 180px;
+    width: 20%;
     height: 190px;
     left: 0px;
-    top: 120px;
+    top: 20%;
     
     background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
 
@@ -123,27 +123,27 @@ border-width: medium;
 .image-frame{
 
     position:absolute;
-    width: 135px;
+    width: 80%;
     height: 140px;
-    left: 0px;
-    top: 25px;
+    left: 0%;
+    top: 15%;
     
 
 }
 .arrow-pointer{
     position:absolute;
-    width: 95px;
+    width: 12%;
     height: 110px;
-    left: 70px;
-    top: 70px;
+    left:10%;
+    top: 5%;
    
 }
 .name-handle{
     position: absolute;
-width: 245px;
+width: 43%;
 height: 20px;
-left: 180px;
-top: 75px;
+left:15%;
+top: 0%;
 
 font-family: 'Comic Sans MS';
 font-style: normal;
@@ -152,7 +152,7 @@ font-size: 25px;
 line-height: 97px;
 /* or 511% */
 
-display: flex;
+
 align-items: center;
 text-align: center;
 letter-spacing: -0.5px;
@@ -169,9 +169,7 @@ position: absolute;
 width: 120%;
 height: 10%;
 left: 22%;
-top: 35%;
-
-
+top: 30%;
 
 font-family: Preahvihear;
 font-size: 180%;
@@ -179,16 +177,13 @@ font-weight: 50%;
 line-height: 200%;
 letter-spacing: 0.02em;
 
-
-
-
 color: #FFFFFF;
 
 }
 .section-1{
     position: absolute;
     width: 150%;
-    height: 300px;
+    height: 260px;
     left: 50%;
     top: 180px;
     
