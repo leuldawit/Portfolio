@@ -10,16 +10,18 @@ scroll-snap-type:y mandatory ;
 background: #11071F;
 
 }
-
+.nav_container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .top_bar{
     position:fixed;
 width: 100%;
 height: 60px;
-
-overflow: hidden;
-text-align: center;
-
-text-decoration: none;
 
 font-family: 'Comic Sans MS';
 font-style: normal;
@@ -27,7 +29,6 @@ font-weight: 600;
 font-size: 100%;
 display: flex;
 align-items: center;
-text-align: center;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
@@ -35,7 +36,11 @@ background: #1A0B2E;
 box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
 
 animation: dropIn 1s ease forwards;
-}   
+}  
+nav{
+    flex: 1;
+    text-align: right;
+} 
 
 #home{
     position: absolute;
@@ -110,11 +115,11 @@ border-width: medium;
 }
 
 .image-parent {
-    position: absolute;
+    position: relative;
     width: 20%;
     height: 190px;
     left: 0px;
-    top: 20%;
+    top: 10%;
     
     background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
 
@@ -122,10 +127,10 @@ border-width: medium;
   
 .image-frame{
 
-    position:absolute;
-    width: 80%;
+    position:relative;
+    width: 73%;
     height: 140px;
-    left: 0%;
+    left: -1;
     top: 15%;
     
 
@@ -140,9 +145,9 @@ border-width: medium;
 }
 .name-handle{
     position: absolute;
-width: 50%;
+width: 60%;
 height: 20px;
-left:12%;
+left:5%;
 top: 0%;
 
 font-family: 'Comic Sans MS';
@@ -162,27 +167,30 @@ color: #FFFFFF;
 }
 
 .description{
-position: absolute;
-width: 120%;
+position: relative;
+width: 90%;
 height: 10%;
-left: 22%;
-top: 30%;
+left: 0%;
+top: 50%;
 
 font-family: Preahvihear;
 font-size: 180%;
 font-weight: 50%;
-line-height: 200%;
+line-height: 100%;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
 
 }
 .section-1{
-    position: absolute;
-    width: 170%;
+    position: relative;
+    width: 300%;
     height: 260px;
-    left: 50%;
-    top: 180px;
+    left: 0%;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
     background: #2C1250;
     box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
