@@ -8,19 +8,31 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
-    <div class="nav_container">
+    
+    <div class="nav_container" style="max-height: 0vh;">
         <div class="top_bar">
-            <img id="logo" src="LD.png" alt="Abstract drawing">
-            <nav>
-                <a>  
+        <img id="logo" src="LD.png" alt="Abstract drawing">
+                    <div class="menubtn" onclick=changeTox(this)>
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        
+                    </div>  
+                    
+            <nav id="menulist" style="display: none;" >
+                <a id="menulists"  >  
+                    
                     <a id="home">Home</a>
                     <a id="about">About</a>
-                    <a id="project">Projects</a> 
+                    <a id="project">Projects</a>
+                    
+                      
                 </a> 
+               
             </nav>
         </div>
     </div>
-    <div class="wrapper">
+    <div class="page1">
         <div class="section-1">
             <div class="image-parent">
                 <img class="image-frame" src="Me.png">
@@ -29,13 +41,22 @@
             <div>
                 <p class="name-handle"> Hello I Am <a style="color: #7127BA;
                     font-style:italic ">Leul Dawit</a></p>
-                <p class="description">"Every great 
+                <p class="quote">"Every great 
                     <a style="color: #A362FF;"> design</a>  
                     begins with an even greater story."
                 </p>
             </div>
         </div>
+        <div class="profession">
+            I'm a Software Engineer.| 
+        </div>
+        <div class="discription">
+            A self-taught Front end developer.I make meaningful and delightful digital products that create an equilibrium
+            between user needs and business goals. 
+        </div>
 
+    </div>
+        
         <section class="section-2">
             <p class="work-xp">
                 Work Experience
@@ -73,6 +94,34 @@
             <img id="line" src="Line 1.png" alt="line"><br>           
         </section>
         
-    </div>
+        <script>
+            function changeTox(x) {
+                var menu=document.getElementsByClassName("menubtn");
+              x.classList.toggle("change");
+              var menulist=document.getElementById("menulist");
+              var expandmenu=document.getElementById("menulists");
+                if(menulist.style.display=='none') {
+                    menulist.style.display="block" ; 
+                    expandmenu.style.display="block" ;  
+                    
+                } else { 
+                    menulist.style.display="none";               
+                    
+                }
+            }
+            </script> 
+            <script>
+                if(screen.width>700){
+                     var expandmenu=document.getElementById("menulist");
+                     expandmenu.style.display="block";   
+                }
+              
+               
+        
+        
+            </script>
+
 </body>
+
+
 </html>
