@@ -166,8 +166,8 @@ border-width: medium;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    margin-left: 65%;
-    min-width:100vh;
+    margin-left: 50%;
+    min-width:120vh;
     min-height: 30vh;
     
     background: #2C1250;
@@ -182,7 +182,7 @@ border-width: medium;
    position: relative; 
     width: 200px;
     height: 190px;
-    left: 40px;
+    left: 5%;
     top: 10%;
     margin-left: 0;
     
@@ -202,11 +202,11 @@ border-width: medium;
 
 }
 .arrow-pointer{
-    position:absolute;
-    width: 15%;
-    height: 110px;
-    left:550px;
-    top: 0px;
+    position:relative;
+    width: 80px;
+    height: 60px;
+    left:0%;
+    top:-60px;
     
    
 }
@@ -215,7 +215,7 @@ border-width: medium;
     position: relative;
 width: 100%;
 height: 20px;
-left:15%;
+left:0%;
 top: 0;
 margin-top: 0;
 margin-bottom: 60px;
@@ -241,7 +241,8 @@ color: #FFFFFF;
 position: relative;
 width: 90%;
 height: 10%;
-margin-left :60px;
+margin-left :10%;
+margin-top: 5%;
 
 
 font-family: Preahvihear;
@@ -259,13 +260,13 @@ color: #FFFFFF;
 position: absolute;
 width: 674px;
 height: 90px;
-left: 20px;
+left: 10%;
 top: 250px;
 
 font-family: 'Preahvihear';
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
+font-size: xx-large;
 line-height: 90px;
 display: flex;
 align-items: center;
@@ -277,9 +278,9 @@ color: #FFFFFF;
 
 .discription{
     position: absolute;
-width: 892px;
+width:100%;
 height: 120px;
-left: 350px;
+left: 80%;
 top: 330px;
 text-align: center;
 
@@ -302,6 +303,7 @@ color: #FFFFFF;
 
 .nav_container{
     padding-left: 0;
+    min-height: 200px;
     width: calc(100vw);    
 }
 .menubtn{
@@ -335,6 +337,83 @@ nav a {
     to{transform: translateY(0);}
     
 }
+.section-1{
+ 
+   position: relative;
+  
+    margin-top: 5%;
+    margin-left: 0px;
+    width:100vw;
+    min-height: 10vh;
+    min-width: 100%;
+    
+    background: #2C1250;
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px; 
+
+}
+.arrow-pointer{
+   position: relative;
+    width: 80px;
+    height: 70px;
+    left:0px;
+    top: -40px;  
+}
+.name-handle{
+    top: 10px;
+    left: 0px;
+    font-size: 100%;
+line-height: 60px;
+width: 160px;
+}
+.image-parent {
+
+    position: relative; 
+     width: 60%;
+     height: 70%;
+     left: 5%;
+     top: 0px;
+     
+   }
+   .image-frame{
+
+    position:relative;
+    width: 100%;
+    height: 140px;
+    top: 0%;  
+
+}
+.quote{
+    position: relative;
+    margin-top: 10%;
+    margin-left: -10px;
+    font-size:larger;
+    width: 100%;
+}
+.profession{
+    top: 160px;
+    left: 0%;
+    font-size:x-large;
+}
+.discription{
+    font-size: large;
+    left: 50%;
+    width: 100%;
+}
+.work-xp{
+    position: relative ;
+width: 100%;
+height: 172px;
+left: 10%;
+top: 730px;
+
+font-size: xx-large;
+
+color: #FFFFFF;
+
+}
+
+
 
 
 }
@@ -343,16 +422,12 @@ nav a {
 
 
 
-
-
-
-
 .work-xp{
-    position: absolute;
+    position: relative;
 width: 300px;
 height: 72px;
 left: 280px;
-top: 730px;
+top: 330px;
 
 font-family: 'Comic Sans MS';
 font-style: normal;
