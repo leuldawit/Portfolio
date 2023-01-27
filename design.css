@@ -141,6 +141,7 @@ border-width: medium;
   background-color: #ddd;
   color: black;
   transition: background-color 1s ease-in;
+  
 }
 
 #home:active{
@@ -380,7 +381,7 @@ transform: translateX(-5%);
 
  
     
-.section-3 p{
+.description2{
     position: relative;
     width: 50vw;
     margin-left: 25%;
@@ -555,7 +556,7 @@ width: 160px;
    
 }
 
-.section-3 p{
+.description2{
 top:60vh;
 }
 .skills{
