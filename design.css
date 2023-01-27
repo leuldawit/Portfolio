@@ -298,11 +298,10 @@ color: #FFFFFF;
 }
 
 .work-xp{
-    position: absolute;
+    position: relative;
 width: 60vw;
 margin-left: 20%;
-margin-bottom: 15%;
-top: 92vh;
+top: 20vh;
 
 font-family: 'Comic Sans MS';
 font-style: normal;
@@ -319,7 +318,7 @@ color: #FFFFFF;
 .cardgroup{
     position: relative;
     margin-left: 40%;
-    top:40vh;
+    top:25vh;
     
 }
 .cardsstack{
@@ -533,6 +532,7 @@ width: 160px;
 }
 .cardgroup{
     position: relative;
+    margin-top: 10%;
     margin-left: 25%;
     top:20vh;
     
@@ -543,25 +543,25 @@ width: 160px;
 }
 
 .cardsstack:hover>.card2 {
-    transform: translate(0%,85%);
+    transform: translate(0%,94%);
    
 }
 .cardsstack:hover>.card3 {
-    transform: translate(0%,187%);
+    transform: translate(0%,207%);
    
 }
 .cardsstack:hover>.card4 {
-    transform: translate(0%,285%);
+    transform: translate(0%,317%);
    
 }
 
 .section-3 p{
-top:50vh;
+top:60vh;
 }
 .skills{
-    margin-top: 20%;
-    margin-left: 3%;
-    width: auto;
+    margin-top: 40%;
+    margin-left: 0%;
+    width: 90vw;
     height: auto;
 }
 
