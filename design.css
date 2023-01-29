@@ -37,7 +37,9 @@ background: #11071F;
     transform: translate(0, 11px) rotate(-45deg);
   }
   
-  .change .bar2 {opacity: 0;}
+  .change .bar2 {
+    transform: translate(-1500%,-17%);
+  }
   
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
@@ -383,8 +385,8 @@ transform: translateX(-5%);
     
 .description2{
     position: relative;
-    width: 50vw;
-    margin-left: 25%;
+    width: 70vw;
+    margin-left: 15%;
     top:40vh;
     
 
